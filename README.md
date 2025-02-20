@@ -42,13 +42,13 @@ Ceo projekat je podeljen u 5 sekcija (foldera): Models, Repo, Controllers, Valid
 
 - Repo omogućuje CRUD operacije nad tim entitetima. Sadrži fajlove za svaki entitet.
 
-- Controllers implementira funkcije koje se pozivaju od strane HTTP adrese ili JUnit 5 testa. Takođe sadrži 
+- Controllers implementira metode koje se pozivaju od strane HTTP adrese ili JUnit 5 testa. Takođe sadrži 
   fajlove za svaki entitet.
   
 - Validators sadrži posebnu logiku za validaciju podataka. Njega poziva neki controller kako bi saznao da 
-  li su parametri funkcije ispravni, pre nego što nastavi sa izvršenjem te funkcije.
+  li su parametri metode ispravni, pre nego što nastavi sa izvršenjem te metode.
   
-- Test poziva funkcije controller-a. Svaki fajl u ovom folderu je jedan test.
+- Test poziva metode controller-a. Svaki fajl u ovom folderu je jedan test.
 
 
 ## Pokretanje projekta:
