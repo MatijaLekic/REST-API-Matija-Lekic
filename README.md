@@ -48,7 +48,7 @@ Ceo projekat je podeljen u 5 sekcija (foldera): Models, Repo, Controllers, Valid
 - Validators sadrži posebnu logiku za validaciju podataka. Njega poziva neki controller kako bi saznao da 
   li su parametri funkcije ispravni, pre nego što nastavi sa izvršenjem te funkcije.
   
-- Test poziva funkcije controllera. Svaki fajl u ovom folderu je jedan test.
+- Test poziva funkcije controller-a. Svaki fajl u ovom folderu je jedan test.
 
 
 ## Pokretanje projekta:
